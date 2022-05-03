@@ -55,3 +55,23 @@ h2.textContent = "Cece and Charlie are my two cats. They have a complicated rela
 
  //append h2 to divB
 divB.append(h2);
+
+//create p tag
+const p = document.createElement("p")
+p.className = "body-content"
+p.textContent = 
+
+"Cece is our older cat. She is a standard issue cat (aka \"tabby\") that we rescued from PAWS.  She's about 11 years old (...we think, who's keeping score?). Charlie is also a standard issue cat who we think is 4 years old, whom we adopted from a friend who's family needed to rehome him. He's a former street-cat relearning how to be a cuddle bug. Cece and Charlie have very different personalities. Cece is a lazy princess who loves cuddles, pets, and getting fed early. Charlie is an energetic race car who loves stealing food from our plates (a regular occurence), chasing his mice, and running really fast at 5am."
+
+//append p to divB
+divB.append(p)
+
+// add event when clicking on image
+const input = document.getElementById('cece-and-charlie');
+
+function clickAlert() {
+  alert('Mrrreow?');
+}
+
+input.addEventListener('click', clickAlert);
+
