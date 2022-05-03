@@ -21,18 +21,17 @@ h2 {
   width: 25%;
 }
 
-figure {
+/*figure {
   border: thin #c0c0c0 solid;
   display: flex;
   flex-flow: column;
   padding: 5px;
   margin: auto;
-}
+}*/
 
 
 figcaption {
-  background-color: #222;
-  color: #fff;
+  color: black;
   font: italic smaller sans-serif;
   padding: 3px;
   text-align: center;
