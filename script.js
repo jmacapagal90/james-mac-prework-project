@@ -20,5 +20,5 @@ const h2 = document.createElement("h2");
 h2.id = 'h2'
 h2.textContent = "Cece and Charlie are my two cats. They have a complicated relationship.";
 
-divB.append(h2) //append h1 to divB
+divB.append(h2) //append h2 to divB
 
