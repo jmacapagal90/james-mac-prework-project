@@ -1,5 +1,5 @@
 body {
-    background: rgb(184, 184, 184);
+    background: rgb(201, 255, 164);
 }
 
 h1 {
@@ -18,5 +18,5 @@ h2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 15%;
 }

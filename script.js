@@ -9,6 +9,8 @@ h1.textContent = "Cece and Charlie: A Song of Cat Slaps and Kisses";
 
 divA.append(h1) //append h1 to divA
 
+
+
 const divB = document.createElement('div')
 divB.id = 'b'
 
@@ -16,7 +18,7 @@ document.querySelector("body").appendChild(divB); //append divB to body
 
 const h2 = document.createElement("h2");
 h2.id = 'h2'
-h2.textContent = "This content added by JavaScript";
+h2.textContent = "Cece and Charlie are my two cats. They have a complicated relationship.";
 
 divB.append(h2) //append h1 to divA
 
