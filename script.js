@@ -15,20 +15,29 @@ divA.append(h1)
 
 //create image div
 const divImg = document.createElement('div')
-divImg.id = 'hero-image'
+divImg.id = 'image'
+
+//create figure element
+const figure = document.createElement('figure')
+figure.className = "image"
 
 //create img element
-var img = document.createElement('img');
+const img = document.createElement('img');
 img.src = 'https://i.ibb.co/YTXJsKQ/Cece-and-Charlie.png';
 img.alt = "Cece and Charlie"
 img.id = "cece-and-charlie"
 
-//append image to div
-var src = document.getElementById('hero-image');
-divImg.appendChild(img);
+//add caption
+figure.figcaption = "Cece (left) and Charlie (right)";
 
-//append hero image div to body
-document.querySelector("body").appendChild(divImg);
+//append image to figure
+figure.appendChild(img);
+
+//append figure to div 
+divImg.append(figure)
+
+//append div to body
+document.querySelector("body").appendChild(divImg)
 
 //create divB
 const divB = document.createElement('div')
