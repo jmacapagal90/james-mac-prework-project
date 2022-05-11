@@ -22,7 +22,7 @@ const img = document.createElement('img');
 img.src = 'https://i.ibb.co/YTXJsKQ/Cece-and-Charlie.png';
 img.alt = "Cece and Charlie";
 img.id = "cece-and-charlie";
-img.style = "width:100%";
+img.style = "max-width:100%;";
 
 //create figure element
 const figure = document.createElement('figure');
