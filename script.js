@@ -75,3 +75,45 @@ function clickAlert() {
 
 input.addEventListener('click', clickAlert);
 
+//create divC
+const divC = document.createElement('div');
+divC.id = 'c'
+//append divB to body
+document.querySelector("body").appendChild(divC); 
+
+//create h3 tag
+const h3 = document.createElement("h3");
+h3.id = 'h3';
+
+//create a tag for paws chicago
+const a1 = document.createElement("a");
+a1.id = `paws-link`
+a1.href = `https://www.pawschicago.org/`
+a1.textContent = "PAWS Chicago"
+
+//create a tag for anti-cruelty society
+const a2 = document.createElement("a");
+a2.id = `anti-cruelty`
+a2.href = `https://anticruelty.org/`
+a2.textContent = `Anti-Cruelty Society`
+
+//create ul tag
+const ul = document.createElement("ul")
+ul.id = `links`
+
+// create li tag and append a1 and a2
+const li1 = document.createElement("li")
+li1.id = `paws`
+li1.append(a1)
+ul.append(li1)
+
+const li2 = document.createElement("li")
+li2.id = `acs`
+li2.append(a2)
+ul.append(li2)
+
+// append ul to h3, h3 to divC, and divC to body
+
+h3.append(ul)
+divC.append(h3)
+body.append(divC)
