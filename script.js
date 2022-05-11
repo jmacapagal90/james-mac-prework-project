@@ -95,7 +95,7 @@ p2.textContent =
 
 "We adopted Cece from PAWS Chicago, and we adopted Charlie from a friend with assistance from the Anti-Cruelty Society of Chicago.  They are two great organizations which rescue animals, provide care, and assist with adoption- in addition to being no-kill shelters. "
 
-h3.textContent += "Please visit the links below to learn more:"
+h3.textContent = "Please visit the links below to learn more:"
 
 //append p2 to divC
 divC.append(p2);
