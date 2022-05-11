@@ -57,14 +57,15 @@ h2.textContent = "Cece and Charlie are my two cats. They have a complicated rela
 divB.append(h2);
 
 //create p tag
-const p = document.createElement("p")
-p.className = "body-content"
-p.textContent = 
+const p1 = document.createElement("p")
+p1.id = "p1";
+p1.className = "body-content";
+p1.textContent = 
 
 "Cece is our older cat. She is a standard issue cat (aka \"tabby\") that we rescued from PAWS.  She's about 11 years old (...we think, who's keeping score?). Charlie is also a standard issue cat who we think is 4 years old, whom we adopted from a friend who's family needed to rehome him. He's a former street-cat relearning how to be a cuddle bug. Cece and Charlie have very different personalities. Cece is a lazy princess who loves cuddles, pets, and getting fed early. Charlie is an energetic race car who loves stealing food from our plates (a regular occurence), chasing his mice, and running really fast at 5am."
 
 //append p to divB
-divB.append(p)
+divB.append(p1);
 
 // add event when clicking on image
 const input = document.getElementById('cece-and-charlie');
@@ -84,6 +85,18 @@ document.querySelector("body").appendChild(divC);
 //create h3 tag
 const h3 = document.createElement("h3");
 h3.id = 'h3';
+
+//create p tag for h3
+const p2 = document.createElement("p")
+p2.id = "p2";
+p2.className = "body-content";
+p2.textContent = 
+
+"We adopted Cece from PAWS Chicago, and we adopted Charlie from a friend with assistance from the Anti-Cruelty Society of Chicago.  They are two great organizations which rescue animals, provide care, and assist with adoption- in addition to being no-kill shelters. Please visit the links below to learn more:"
+
+//append p2 to divC
+divC.append(p2)
+
 
 //create a tag for paws chicago
 const a1 = document.createElement("a");
