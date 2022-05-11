@@ -1,5 +1,9 @@
 body {
     background: rgb(201, 255, 164);
+    margin: 50px;
+    display: inline-block;
+    border-style: ridge;
+    border-width: 20px;
 }
 
 h1 {

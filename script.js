@@ -95,38 +95,40 @@ p2.textContent =
 "We adopted Cece from PAWS Chicago, and we adopted Charlie from a friend with assistance from the Anti-Cruelty Society of Chicago.  They are two great organizations which rescue animals, provide care, and assist with adoption- in addition to being no-kill shelters. Please visit the links below to learn more:"
 
 //append p2 to divC
-divC.append(p2)
+divC.append(p2);
 
 
 //create a tag for paws chicago
 const a1 = document.createElement("a");
-a1.id = `paws-link`
-a1.href = `https://www.pawschicago.org/`
-a1.textContent = "PAWS Chicago"
+a1.id = `paws-link`;
+a1.target = "_blank";
+a1.href = `https://www.pawschicago.org/`;
+a1.textContent = "PAWS Chicago";
 
 //create a tag for anti-cruelty society
 const a2 = document.createElement("a");
-a2.id = `anti-cruelty`
-a2.href = `https://anticruelty.org/`
-a2.textContent = `Anti-Cruelty Society`
+a2.id = `anti-cruelty`;
+a2.target = "_blank";
+a2.href = `https://anticruelty.org/`;
+a2.textContent = `Anti-Cruelty Society`;
 
 //create ul tag
-const ul = document.createElement("ul")
-ul.id = `links`
+const ul = document.createElement("ul");
+ul.id = `links`;
 
 // create li tag and append a1 and a2
-const li1 = document.createElement("li")
-li1.id = `paws`
-li1.append(a1)
-ul.append(li1)
+const li1 = document.createElement("li");
+li1.id = `paws`;
+li1.append(a1);
+ul.append(li1);
 
-const li2 = document.createElement("li")
-li2.id = `acs`
-li2.append(a2)
-ul.append(li2)
+const li2 = document.createElement("li");
+li2.id = `acs`;
+li2.append(a2);
+ul.append(li2);
 
 // append ul to h3, h3 to divC, and divC to body
 
-h3.append(ul)
-divC.append(h3)
-body.append(divC)
+h3.append(ul);
+divC.append(h3);
+body.append(divC);
