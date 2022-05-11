@@ -22,6 +22,7 @@ const img = document.createElement('img');
 img.src = 'https://i.ibb.co/YTXJsKQ/Cece-and-Charlie.png';
 img.alt = "Cece and Charlie";
 img.id = "cece-and-charlie";
+img.style = "width:100%";
 
 //create figure element
 const figure = document.createElement('figure');
@@ -93,6 +94,7 @@ p2.className = "body-content";
 p2.textContent = 
 
 "We adopted Cece from PAWS Chicago, and we adopted Charlie from a friend with assistance from the Anti-Cruelty Society of Chicago.  They are two great organizations which rescue animals, provide care, and assist with adoption- in addition to being no-kill shelters. "
+
 h3.textContent += "Please visit the links below to learn more:"
 
 //append p2 to divC
