@@ -20,9 +20,8 @@ divImg.id = 'image';
 //create img element
 const img = document.createElement('img');
 img.src = 'https://i.ibb.co/YTXJsKQ/Cece-and-Charlie.png';
-img.alt = "Cece and Charlie";
+img.alt = "cats";
 img.id = "cece-and-charlie";
-img.style = "max-width:100%;";
 
 //create figure element
 const figure = document.createElement('figure');
@@ -132,6 +131,6 @@ ul.append(li2);
 
 // append ul to h3, h3 to divC, and divC to body
 
-h3.append(ul);
 divC.append(h3);
+h3.append(ul);
 body.append(divC);
