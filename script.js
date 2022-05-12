@@ -120,12 +120,10 @@ ul.id = `links`;
 
 // create li tag and append a1 and a2
 const li1 = document.createElement("li");
-li1.id = `paws`;
 li1.append(a1);
 ul.append(li1);
 
 const li2 = document.createElement("li");
-li2.id = `acs`;
 li2.append(a2);
 ul.append(li2);
 
